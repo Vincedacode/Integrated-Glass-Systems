@@ -12,7 +12,7 @@ h5,
 h6,
 p {
   color: #4a4a4a;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
 }
 nav {
   background-color: #1f3a5f;
@@ -32,18 +32,34 @@ nav {
   cursor: pointer;
 }
 
+.hero-section button a {
+  color: #fff;
+}
+
 .hero-section button:hover {
   background-color: #fff;
   color: #16304f;
 }
 
+.hero-section button a:hover {
+  color: #16304f;
+}
+
 .about-section button {
   background-color: #4fc3f7;
-  color: #1a1a1a;
+  color: #1a1a1a !important;
   cursor: pointer;
+}
+
+.about-section button a {
+  color: #1a1a1a;
 }
 
 .about-section button:hover {
   background-color: #16304f;
+  color: #fff;
+}
+
+.about-section button a:hover {
   color: #fff;
 }
