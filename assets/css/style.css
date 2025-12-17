@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #4a4a4a;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  background-color: #1f3a5f;
+}
+
+.hero-section {
+  background-image: url(../media/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.hero-section button {
+  background-color: #1f3a5f;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero-section button:hover {
+  background-color: #fff;
+  color: #16304f;
+}
+
+.about-section button {
+  background-color: #4fc3f7;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.about-section button:hover {
+  background-color: #16304f;
+  color: #fff;
+}
