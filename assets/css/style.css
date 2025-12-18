@@ -19,7 +19,8 @@ nav {
 }
 
 .hero-section {
-  background-image: url(../media/bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../media/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -62,4 +63,50 @@ nav {
 
 .about-section button a:hover {
   color: #fff;
+}
+
+.project-img {
+  height: 250px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.project-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-section {
+  background-color: #f7f9fc;
+}
+
+.contact-section form {
+  border-radius: 10px;
+}
+
+.contact-section .btn {
+  background-color: #1f3a5f;
+  color: #fff;
+}
+
+.contact-section .btn:hover {
+  background-color: #16304f;
+}
+
+.form-control {
+  padding: 10px;
+}
+
+.footer-section {
+  background-color: #1a1a1a;
+}
+
+.footer-section a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #4fc3f7;
 }
